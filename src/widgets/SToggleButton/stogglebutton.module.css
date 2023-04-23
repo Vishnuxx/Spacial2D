@@ -1,0 +1,20 @@
+
+.button {
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  min-width: 20px;
+  min-height: 20px;
+  margin: 2px;
+  color: rgb(202, 202, 202);
+}
+
+.selected {
+    background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  min-width: 20px;
+  min-height: 20px;
+  margin: 2px;
+  background-color: rgb(228, 171, 0);
+}

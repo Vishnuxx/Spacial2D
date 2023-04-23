@@ -1,0 +1,8 @@
+.drawinglayer {
+    width :100vw;
+    height:100vh;
+    /* background-color: green; */
+    opacity: 0.3;
+    pointer-events: none;
+    position: absolute;
+}

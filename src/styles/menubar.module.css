@@ -1,0 +1,24 @@
+:root {
+    --backgroundColor : rgb(43, 43, 43);
+    --textColor : #fff;
+    --borderColor : rgb(178, 178, 178);
+}
+
+.menubar {
+    background-color: var(--backgroundColor) ;
+    color: var(--textColor);
+    min-width: 100px;
+    width: fit-content;
+    height:40px;
+    padding: 5px;
+    position: absolute;
+    display: flex;
+    flex-flow: row;
+    border : 1px solid var(--borderColor);
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.mode {
+    background-color: rgb(126, 126, 126);
+}

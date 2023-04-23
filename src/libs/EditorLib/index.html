@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #a{
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="a"></div>
+    <script type="module">
+        import {ViewPort} from './js/ViewPort.js'
+        import {Editor} from './js/editor.js'
+        const viewport = new ViewPort(document.getElementById("a"));
+        const editor = new Editor(viewport)
+
+        editor.addNewCanvas()
+
+        editor.addNewCanvas() 
+        
+        setTimeout(() =>{
+            console.log(editor.getSelectedCanvas())
+            editor.focusToCanvas(editor.getSelectedCanvas())
+        } , 3000)
+    </script>
+</body>
+</html>

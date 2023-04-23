@@ -1,0 +1,17 @@
+button {
+  background-color: rgb(53, 53, 53);
+  border: none;
+  border-radius: 5px;
+  min-width: 20px;
+  min-height: 20px;
+  margin: 2px;
+  color:white;
+}
+
+button:hover {
+  background-color: rgb(67, 67, 67);
+}
+
+button:active {
+  background-color: rgb(45, 45, 45);
+}

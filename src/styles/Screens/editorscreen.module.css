@@ -1,0 +1,16 @@
+.editorscreen {
+    width : 100vw;
+    height : 100vh;
+}
+
+.viewport {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.controllerPanel {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}

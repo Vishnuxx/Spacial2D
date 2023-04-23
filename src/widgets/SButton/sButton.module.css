@@ -1,0 +1,33 @@
+
+
+.button {
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  min-width: 20px;
+  min-height: 20px;
+  margin: 2px;
+  color: rgb(202, 202, 202);
+}
+
+.hover {
+  background-color: rgb(65, 65, 65);
+  border: none;
+  border-radius: 5px;
+  min-width: 20px;
+  min-height: 20px;
+  margin: 2px;
+  color: white;
+}
+
+.select {
+  background-color: rgb(228, 171, 0);
+  border: none;
+  border-radius: 5px;
+  min-width: 20px;
+  min-height: 20px;
+  margin: 2px;
+  color: white;
+}
+
+

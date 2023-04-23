@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mdoular</title>
+    <style>
+      body {
+        height: 100vh;
+        width: 100vw;
+      }
+
+      #d {
+        margin: 0;
+        padding: 0;
+        border: 1px solid black;
+
+        height: 500px;
+        width: 1000px;
+
+        /* Prevent document pinch-zoom & touch-hold-to-highlight */
+        touch-action: none;
+
+        -webkit-touch-callout: none;
+        /* iOS Safari */
+        -webkit-user-select: none;
+        /* Safari */
+        -khtml-user-select: none;
+        /* Konqueror HTML */
+        -moz-user-select: none;
+        /* Old versions of Firefox */
+        -ms-user-select: none;
+        /* Internet Explorer/Edge */
+        user-select: none;
+        /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="d"></div>
+    <!-- <script src="./editor2D.js" type="module"></script> -->
+    <script type="module">
+      import { Editor2D } from "./editor2D.js";
+      const div = document.getElementById("d");
+      const editor = new Editor2D(div, div.clientWidth, div.clientHeight);
+    </script>
+  </body>
+</html>
